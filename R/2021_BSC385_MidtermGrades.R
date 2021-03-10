@@ -147,7 +147,7 @@ one2one<-df %>%
   geom_abline(intercept = 0, slope = 1, col="grey30", lty=2) +
   geom_point(pch=21, col='grey30',fill="steelblue4", alpha=0.7, cex=3) + 
   theme_bw()+
-  ggtitle("D) Exam Grades") +
+  ggtitle("D) Exam Grade Comparison") +
   xlim(c(40,110)) + 
   ylim(c(40,110)) + 
   xlab("Exam 1 [%]") + 
